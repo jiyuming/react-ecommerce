@@ -12,9 +12,8 @@ const CartButtons = () => {
       <Link to="/cart" className="cart-btn">
         Cart
         <sapn className="cart-container">
-          <FaShoppingCart>
-            <span className="cart-value">12</span>
-          </FaShoppingCart>
+          <FaShoppingCart></FaShoppingCart>
+          <span className="cart-value">12</span>
         </sapn>
       </Link>
       <button type="button" className="auth-btn">
